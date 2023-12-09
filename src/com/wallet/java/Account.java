@@ -2,20 +2,20 @@ package src.com.example.java;
 
 import java.util.Date;
 
-public class HistoryEntry {
+public class Account {
 
     private String action;
     private double amount;
     private Date timestamp;
     private String category;
 
-    public HistoryEntry(String action, double amount) {
+    public Account(String action, double amount) {
         this.action = action;
         this.amount = amount;
         this.timestamp = new Date();
     }
 
-    public HistoryEntry(String action, double amount, String category) {
+    public Account(String action, double amount, String category) {
         this.action = action;
         this.amount = amount;
         this.timestamp = new Date();
