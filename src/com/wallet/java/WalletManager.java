@@ -8,7 +8,7 @@ public class WalletManager {
 
     private double balance;
     private List<Transaction> transactions;
-    private List<HistoryEntry> history;
+    private List<Account> history;
 
     public WalletManager() {
         this.balance = 0;
