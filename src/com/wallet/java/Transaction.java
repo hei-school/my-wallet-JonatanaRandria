@@ -1,4 +1,4 @@
-package src.com.example.java;
+package src.com.wallet.java;
 
 import java.util.Date;
 
