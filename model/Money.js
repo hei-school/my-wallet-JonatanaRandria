@@ -1,5 +1,4 @@
-import WalletObject from "./common/wallet-object";
-
+import WalletObject from './common/WalletObject.js';
 
 class Money extends WalletObject {
     constructor(id, amount) {

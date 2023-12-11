@@ -1,22 +1,24 @@
 {
-  "name": "my-wallet-jonatanarandria",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "cc-d1-my-wallet-nyh1409",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hy8NMZUz)",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type" : "module",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hei-school/my-wallet-JonatanaRandria.git"
+    "url": "git+https://github.com/hei-school/cc-d1-my-wallet-NyH1409.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hei-school/my-wallet-JonatanaRandria/issues"
+    "url": "https://github.com/hei-school/cc-d1-my-wallet-NyH1409/issues"
   },
-  "homepage": "https://github.com/hei-school/my-wallet-JonatanaRandria#readme",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+  "homepage": "https://github.com/hei-school/cc-d1-my-wallet-NyH1409#readme"
 }

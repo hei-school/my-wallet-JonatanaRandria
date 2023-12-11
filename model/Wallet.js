@@ -1,4 +1,4 @@
-import CardType from './common/type/card-type';
+import CardType from './common/type/card-type.js';
 import Card from './Card.js';
 import Money from './Money.js';
 import Pocket from './Pocket.js';
