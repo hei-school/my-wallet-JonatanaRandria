@@ -1,18 +1,18 @@
 import 'dart:io';
 import 'dart:math';
 
-import './model/wallet.dart';
-import './model/common/wallet_object.dart';
 import './utils/wallet_utils.dart' ;
+import 'model/Wallet.dart';
+
 
 void main() {
-  
+  var myWallet = Wallet;
 
   while (true) {
     WalletUtils.menu();
     stdout.write('I want to : ');
     var choice = int.parse(stdin.readLineSync()!);
-    redirect(Wallet, choice);
+    redirect(myWallet as Wallet, choice);
   }
 }
 
@@ -32,7 +32,7 @@ void redirect(Wallet wallet, int choice) {
       print('6 - National Identity Card');
       stdout.write('Choice : ');
       var type = int.parse(stdin.readLineSync()!);
-      WalletUtils.objectTypeMenu(wallet, objectId, pocketNumber, type);
+      WalletUtils.objectTypeMenu(wallet , objectId, pocketNumber, type);
       break;
     case 2:
       print('All objects you can put out ');

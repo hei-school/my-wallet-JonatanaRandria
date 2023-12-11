@@ -1,4 +1,4 @@
-import 'wallet_object.dart';
+import './common/wallet_object.dart';
 
 class Pocket {
   final List<WalletObject> objects;

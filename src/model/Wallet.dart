@@ -3,7 +3,6 @@ import './common/wallet_object.dart';
 import './Card.dart';
 import './Money.dart';
 import './common/card_type.dart';
-import '../utils/wallet_utils.dart';
 
 class Wallet {
   final List<Pocket> pockets;
