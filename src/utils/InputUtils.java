@@ -9,27 +9,27 @@ import static model.common.CardType.DRIVING_CARD;
 import static model.common.CardType.NI_CARD;
 import static model.common.CardType.VISIT_CARD;
 public class InputUtils {
-    public static void beautifulMenu(){
-        System.out.println("+++++++++++++++++++++++++++++++++++++");
-        System.out.println("++wwww+++++++++++++++++++++wwww++++++");
-        System.out.println("+++wwww++++++++++++++++++wwww++++++++");
-        System.out.println("++++wwww++++wwwwwww++++wwww++++++++++");
-        System.out.println("++++++wwww+wwww+wwww+wwww++++++++++++");
-        System.out.println("+++++++wwwwww++++wwwwwww+++++++++++++");
-        System.out.println("+++++++++++++++++++++++++++++++++++++");
-        System.out.println("+++++++++++++++++++++++++++++++++++++");
+    public static void consoleUtils(){
+        String menu=  "\n" +
+                "                                __           __                 \n" +
+                "  ____           ______   ____ |  | __ _____/  |_____________   \n" +
+                "_/ __ \\   ______ \\____ \\ /  _ \\|  |/ // __ \\   __\\_  __ \\__  \\  \n" +
+                "\\  ___/  /_____/ |  |_> >  <_> )    <\\  ___/|  |  |  | \\// __ \\_\n" +
+                " \\___  >         |   __/ \\____/|__|_ \\\\___  >__|  |__|  (____  /\n" +
+                "     \\/          |__|               \\/    \\/                 \\/ \n";
+
+        System.out.println(menu);
     }
 
     public static void menu() {
-        System.out.println("Welcome to MyWallet!");
-        beautifulMenu();
+        System.out.println("Welcome to e-poketra!");
+        consoleUtils();
         System.out.println("1 - Put object in");
         System.out.println("2 - Put object out");
         System.out.println("3 - Get money balance");
-        System.out.println("4 - Get objects in a specific pocket");
-        System.out.println("5 - Find object (provide the identifier)");
-        System.out.println("6 - Count object [Credit card, visit card, driving card, National Card]");
-        System.out.println("7 - Indicate object lost or found");
+        System.out.println("4 - Find object (provide the identifier)");
+        System.out.println("5 - Count object [Credit card, visit card, driving card, National Identtity Card]");
+        System.out.println("6 - Indicate object lost or found");
     }
 
     public static void objectTypeMenu(Wallet wallet,
