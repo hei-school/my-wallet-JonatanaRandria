@@ -10,7 +10,7 @@ def main():
 
     while True:
         wallet_utils.menu()
-        print("Saisir : ")
+        print("I want to : ")
         choice = int(input())
         redirect(my_wallet, choice)
 
@@ -30,7 +30,7 @@ def redirect(wallet, choice):
         print("6 - National Identity Card")
         print("Choice : ")
         obj_type = int(input())
-        AppUtils.AppUtils.object_type_menu(wallet, object_id, pocket_number, obj_type)
+        wallet_utils.object_type_menu(wallet, object_id, pocket_number, obj_type)
     elif choice == 2:
         print("All object you can put out ")
         objects = wallet.get_objects()
@@ -63,7 +63,7 @@ def redirect(wallet, choice):
         print("4 - National Identity Card")
         print("Choice : ")
         card_type = int(input())
-        AppUtils.AppUtils.object_count_menu(wallet, card_type)
+        wallet_utils.object_count_menu(wallet, card_type)
     else:
         pass
 
