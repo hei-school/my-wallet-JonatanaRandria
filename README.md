@@ -33,4 +33,4 @@ Use a modern IDE (Intellij, Eclipse,VSCode...) if possible
     * Run application : ``python main``
 
 ## How can you launch this app?
-When the app is bootstrapping, we will in the console the folling menu :
+When the app is bootstrapping, we will in the console the following menu :
