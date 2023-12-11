@@ -10,10 +10,10 @@ Welcome to MyWallet! A simple commande line wallet simulator.
 E-poketra will help to manage a virtual wallet. This app answers to question ```What if a wallet is managed via commande line?```
 
 This app is implemented in ``4 differents programming language`` especially :
-- [Java](#installation)
-- [Dart](#installation)
-- [JavaScript](#installation)
-- [Python](#installation)
+- [Java](https://github.com/hei-school/my-wallet-JonatanaRandria/tree/feature/java)
+- [Dart](https://github.com/hei-school/my-wallet-JonatanaRandria/tree/feature/Dart)
+- [JavaScript](https://github.com/hei-school/my-wallet-JonatanaRandria/tree/feature/javascript)
+- [Python](https://github.com/hei-school/my-wallet-JonatanaRandria/tree/feature/Python)
 
 ## Installation
 Use a modern IDE (Intellij, Eclipse,VSCode...) if possible
@@ -34,3 +34,6 @@ Use a modern IDE (Intellij, Eclipse,VSCode...) if possible
 
 ## How can you launch this app?
 When the app is bootstrapping, we will in the console the following menu :
+<img width="473" alt="image" src="https://github.com/hei-school/my-wallet-JonatanaRandria/assets/103509534/f02e0ab5-9daa-4032-9593-5d1684147702">
+Have a nice wallet
+
