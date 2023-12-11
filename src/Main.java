@@ -55,13 +55,7 @@ public class Main {
                 System.out.printf("Actual Balance : %s MGA %n", wallet.getBalance());
                 break;
             case 4:
-                List<WalletObject> walletObjects = wallet.getObjects();
-                for (WalletObject obj : walletObjects) {
-                    System.out.printf("[%s - %s] %n", obj.getId(), obj.getClass().getName().substring(6));
-                }
-                System.out.print("Choose object identifier : ");
-                int objIde = scanner.nextInt();
-                System.out.printf("Object found in the pocket number %s %n", wallet.getObjectLocation(objIde).getNumber());
+                System.out.println("It provide your identity as your name and location,coming soon");
                 break;
             case 5:
                 System.out.println("Object type : ");
@@ -72,10 +66,6 @@ public class Main {
                 System.out.print("Choice : ");
                 int cardType = scanner.nextInt();
                 objectCountMenu(wallet, cardType);
-                break;
-            default:
-            case 6:
-                System.out.println("Sorry,this feature is coming soon");
                 break;
         }
     }

@@ -26,10 +26,9 @@ public class InputUtils {
         consoleUtils();
         System.out.println("1 - Put object in");
         System.out.println("2 - Put object out");
-        System.out.println("3 - Get money balance");
-        System.out.println("4 - Find object (provide the identifier)");
+        System.out.println("3 - Get my balance");
+        System.out.println("4 - give my identifier");
         System.out.println("5 - Count object [Credit card, visit card, driving card, National Identtity Card]");
-        System.out.println("6 - Indicate object lost or found");
     }
 
     public static void objectTypeMenu(Wallet wallet,
