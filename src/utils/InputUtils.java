@@ -1,8 +1,10 @@
-package utils;
+package src.utils;
+import src.model.Card;
+import src.model.Money;
+import src.model.Wallet;
+
 import java.util.Scanner;
-import model.Card;
-import model.Money;
-import model.Wallet;
+
 
 import static model.common.CardType.CREDIT_CARD;
 import static model.common.CardType.DRIVING_CARD;

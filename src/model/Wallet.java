@@ -1,10 +1,11 @@
-package model;
+package src.model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import model.common.WalletObject;
 import model.common.CardType;
+
 public class Wallet {
         private final List<Pocket> pockets;
 

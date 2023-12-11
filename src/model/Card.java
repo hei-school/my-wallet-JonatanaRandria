@@ -1,4 +1,4 @@
-package model;
+package src.model;
 
 import model.common.CardType;
 import model.common.WalletObject;

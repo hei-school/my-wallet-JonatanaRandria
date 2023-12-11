@@ -3,12 +3,13 @@ package src;
 import java.util.List;
 import java.util.Scanner;
 import java.util.random.RandomGenerator;
-import model.Wallet;
 import model.common.WalletObject;
+import src.model.Wallet;
 
-import static utils.InputUtils.menu;
-import static utils.InputUtils.objectCountMenu;
-import static utils.InputUtils.objectTypeMenu;
+import static src.utils.InputUtils.menu;
+import static src.utils.InputUtils.objectCountMenu;
+import static src.utils.InputUtils.objectTypeMenu;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
