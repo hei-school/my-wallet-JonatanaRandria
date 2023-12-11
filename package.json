@@ -1,0 +1,22 @@
+{
+  "name": "my-wallet-jonatanarandria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hei-school/my-wallet-JonatanaRandria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hei-school/my-wallet-JonatanaRandria/issues"
+  },
+  "homepage": "https://github.com/hei-school/my-wallet-JonatanaRandria#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
