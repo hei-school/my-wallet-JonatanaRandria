@@ -27,13 +27,13 @@ Use a modern IDE (Intellij, Eclipse,VSCode...) if possible
 - ``JavaScript``
     * We recommend you to use ```node >= 16.20.2```
     * Then install ```npm install```
-    * Run application : ``node main.js``
+    * Run application : ``node index.js``
 - ``Python``
     * We recommend you to use ```python >= 3.11.5```
     * Run application : ``python main``
 
 ## How can you launch this app?
-When the app is bootstrapping, we will in the console the following menu :
+When the app is bootstrapping, we will have the following menu in console :
 <img width="473" alt="image" src="https://github.com/hei-school/my-wallet-JonatanaRandria/assets/103509534/f02e0ab5-9daa-4032-9593-5d1684147702">
 Have a nice wallet
 
